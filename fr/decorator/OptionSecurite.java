@@ -21,7 +21,7 @@ public class OptionSecurite extends AppareilDecorateur {
      */
     @Override
     public String getDescription() {
-        return super.getDescription() + " + Option Sécurité (100€)";
+        return super.getDescription() + " + Option Sécurité (50€)";
     }
 
     /**

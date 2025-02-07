@@ -25,19 +25,19 @@ public class Main {
 
 
         inventaire.ajouterAppareil(ordinateur);
-        inventaire.ajouterAppareil(imprimante);
-        inventaire.ajouterAppareil(scanner);
-        inventaire.ajouterAppareil(telephone);
-
-
         Appareil pcSecurise = new OptionSecurite(ordinateur);
         Appareil pcPerformant = new OptionPerformance(pcSecurise);       
         inventaire.ajouterAppareil(pcPerformant);
-
+          
+        inventaire.ajouterAppareil(telephone);
         Appareil telSecurise = new OptionSecurite(telephone);
-        inventaire.ajouterAppareil(telSecurise);
+        Appareil telPliable = new OptionEcran(telSecurise);
+        inventaire.ajouterAppareil(telPliable);
         
         
+        inventaire.ajouterAppareil(imprimante);
+        inventaire.ajouterAppareil(scanner);
+             
         inventaire.afficherInventaire();
     }
 }
