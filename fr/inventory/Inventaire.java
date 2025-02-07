@@ -20,8 +20,8 @@ public class Inventaire {
         return instance;
     }
 
-    public void ajouterAppareil(Appareil string) {
-        appareils.add(string);
+    public void ajouterAppareil(Appareil appareil) {
+        appareils.add(appareil);
     }
 
     public void afficherInventaire() {
@@ -30,8 +30,4 @@ public class Inventaire {
         }
     }
 
-	public void ajouterAppareil(String string) {
-		System.out.println("test");
-		
-	}
 }

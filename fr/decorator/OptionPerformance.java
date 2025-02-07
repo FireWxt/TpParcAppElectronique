@@ -1,4 +1,4 @@
-/*package fr.decorator;
+package fr.decorator;
 
 import fr.model.Appareil;
 
@@ -16,4 +16,4 @@ class OptionPerformance extends AppareilDecorator {
     public double getPrixFinale() {
         return super.getPrixFinale() + 100;
     }
-}*/
+}
