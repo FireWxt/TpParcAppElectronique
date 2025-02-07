@@ -40,14 +40,17 @@ public class Inventaire {
     public void ajouterAppareil(Appareil appareil) {
         appareils.add(appareil);
     }
-
+    
     /**
-     * Méthode supprimerAppareil pour supprimer un appareil de la liste
+     * méthode afficherInventaire pour afficher l'inventaire
      */
     public void afficherInventaire() {
-        for (Appareil a : appareils) {
-            System.out.println(a.getDescription());
+    	if (appareils.isEmpty()) {
+            System.out.println("L'inventaire est vide.");
+        } else {
+            for (Appareil a : appareils) {
+                System.out.println(a.getDescription());
+            }
         }
     }
-
 }
