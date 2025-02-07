@@ -2,7 +2,7 @@ package fr.decorator;
 
 import fr.model.Appareil;
 
-class OptionPerformance extends AppareilDecorator {
+public class OptionPerformance extends AppareilDecorator {
     public OptionPerformance(Appareil appareil) {
         super(appareil);
     }

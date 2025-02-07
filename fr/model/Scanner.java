@@ -9,20 +9,21 @@ public class Scanner extends AppareilBase implements Appareil {
 
 	@Override
 	public void activer() {
-		// TODO Auto-generated method stub
+		System.out.println("Allumage de l'appareil en cours !");
 		
 	}
 
 	@Override
-	public String getDescription() {
-		// TODO Auto-generated method stub
-		return null;
+	public String getDescription()
+	{
+		return nom + " (" + type + ") - Prix de base : " + prixBase + "€";
 	}
-
+	
+	
+	
 	@Override
 	public double getPrixFinale() {
-		// TODO Auto-generated method stub
-		return 0;
+		return prixBase;
 	}
 
 }

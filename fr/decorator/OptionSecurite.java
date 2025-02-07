@@ -2,7 +2,7 @@ package fr.decorator;
 
 import fr.model.Appareil;
 
-class OptionSecurite extends AppareilDecorator {
+public class OptionSecurite extends AppareilDecorator {
     public OptionSecurite(Appareil appareil) {
         super(appareil);
     }
