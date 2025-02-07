@@ -9,7 +9,7 @@ public class OptionPerformance extends AppareilDecorator {
 
     @Override
     public String getDescription() {
-        return super.getDescription() + " + Boost Performance";
+        return super.getDescription() + " + Boost Performance (50€)";
     }
 
     @Override
