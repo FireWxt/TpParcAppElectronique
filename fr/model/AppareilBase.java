@@ -1,7 +1,7 @@
 package fr.model;
 
 
-public abstract class AppareilBase implements Appareil {
+public abstract class AppareilBase  {
 	
 	protected String identifiant;
 	protected String nom;
@@ -18,18 +18,6 @@ public abstract class AppareilBase implements Appareil {
 	}
 	
 	
-	@Override
-	public String getDescription()
-	{
-		return nom + " (" + type + ") - Prix de base : " + prixBase + "€";
-	}
-	
-	
-	
-	@Override
-	public double getPrixFinale() {
-		return prixBase;
-	}
 
 }
 
