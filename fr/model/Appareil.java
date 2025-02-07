@@ -1,6 +1,9 @@
 package fr.model;
 
 
+/**
+ * Interface Appareil pour définir les méthodes des appareils
+ */
 public interface Appareil {
 
 	

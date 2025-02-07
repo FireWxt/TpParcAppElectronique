@@ -1,5 +1,10 @@
 package fr.model;
 
+/**
+ * Classe Ordinateur pour créer des ordinateurs
+ * Elle étend AppareilBase et implémente Appareil
+ * Elle a un constructeur et redéfinit les méthodes activer, getDescription et getPrixFinale
+ */
 public class Ordinateur extends AppareilBase implements Appareil{
 
 	public Ordinateur(String identifiant, String nom, double prixBase) {

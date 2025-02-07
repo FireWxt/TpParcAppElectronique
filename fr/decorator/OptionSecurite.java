@@ -2,7 +2,10 @@ package fr.decorator;
 
 import fr.model.Appareil;
 
-public class OptionSecurite extends AppareilDecorator {
+/**
+ * Classe OptionSecurite dans le decorateur pour ajouter l'option sécurité à un appareil
+ */
+public class OptionSecurite extends AppareilDecorateur {
     public OptionSecurite(Appareil appareil) {
         super(appareil);
     }

@@ -1,5 +1,10 @@
 package fr.model;
 
+/**
+ * Classe Scanner pour la création de scanners
+ * Elle extend AppareilBase et implemente Appareil
+ * Elle a un constructeur et override les méthodes activer, getDescription et getPrixFinale
+ */
 public class Scanner extends AppareilBase implements Appareil {
 
 	public Scanner(String identifiant, String nom, double prixBase) {

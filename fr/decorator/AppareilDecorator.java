@@ -2,10 +2,13 @@ package fr.decorator;
 
 import fr.model.Appareil;
 
-abstract class AppareilDecorator implements Appareil {
+/**
+ * Classe AppareilDecorateur pour les décorateurs des appareils
+ */
+abstract class AppareilDecorateur implements Appareil {
     protected Appareil appareil;
 
-    public AppareilDecorator(Appareil appareil) {
+    public AppareilDecorateur(Appareil appareil) {
         this.appareil = appareil;
     }
 

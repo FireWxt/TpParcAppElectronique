@@ -1,5 +1,10 @@
 package fr.model;
 
+/**
+ * Classe Imprimante pour créer des imprimantes
+ * Elle étend AppareilBase et implémente Appareil
+ * Elle a un constructeur et redéfinit les méthodes activer, getDescription et getPrixFinale
+ */
 public class Imprimante extends AppareilBase implements Appareil{
 
 	public Imprimante(String identifiant, String nom, double prixBase) {

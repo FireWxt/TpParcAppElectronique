@@ -2,7 +2,10 @@ package fr.decorator;
 
 import fr.model.Appareil;
 
-public class OptionPerformance extends AppareilDecorator {
+/**
+ * Classe OptionPerformance dans le decorateur pour ajouter l'option performance à un appareil
+ */
+public class OptionPerformance extends AppareilDecorateur {
     public OptionPerformance(Appareil appareil) {
         super(appareil);
     }

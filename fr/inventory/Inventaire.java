@@ -5,6 +5,11 @@ import java.util.List;
 
 import fr.model.Appareil;
 
+/**
+ * Classe Inventaire pour gérer et stocker les appareils
+ * Patron de conception Singleton
+ * La classe contient une instance d'elle-même et une liste d'appareils
+ */
 public class Inventaire {
     private static Inventaire instance;
     private List<Appareil> appareils;

@@ -4,6 +4,9 @@ import fr.model.Appareil;
 import fr.model.Scanner;
 import fr.model.TypeAppareil;
 
+/**
+ * Classe FabriqueScanner pour créer des scanners
+ */
 public class FabriqueScanner implements Fabrique {
 
 	@Override

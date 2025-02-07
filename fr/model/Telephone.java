@@ -1,5 +1,10 @@
 package fr.model;
 
+/**
+ * Classe telephone pour la creation d'un telephone
+ * Elle extend AppareilBase et implemente Appareil
+ * Elle a un constructeur et override les méthodes activer, getDescription et getPrixFinale
+ */
 public class Telephone  extends AppareilBase implements Appareil{
 
 	public Telephone(String identifiant, String nom, double prixBase) {

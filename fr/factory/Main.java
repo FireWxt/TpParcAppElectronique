@@ -5,6 +5,9 @@ import fr.inventory.Inventaire;
 import fr.model.Appareil;
 import fr.model.*;
 
+/**
+ * Classe principale du programme
+ */
 public class Main {
     public static void main(String[] args) {
         Inventaire inventaire = Inventaire.getInstance();
