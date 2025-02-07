@@ -1,5 +1,19 @@
 package fr.decorator;
 
-public class OptionSecurite {
+import fr.model.Appareil;
 
+class OptionSecurite extends AppareilDecorator {
+    public OptionSecurite(Appareil appareil) {
+        super(appareil);
+    }
+
+    @Override
+    public String getDescription() {
+        return super.getDescription() + " + Option Sécurité";
+    }
+
+    @Override
+    public double getPrixFinale() {
+        return super.getPrixFinale() + 50;
+    }
 }

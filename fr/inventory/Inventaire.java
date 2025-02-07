@@ -5,7 +5,7 @@ import java.util.List;
 
 import fr.model.Appareil;
 
-class Inventaire {
+public class Inventaire {
     private static Inventaire instance;
     private List<Appareil> appareils;
 
@@ -20,8 +20,8 @@ class Inventaire {
         return instance;
     }
 
-    public void ajouterAppareil(Appareil appareil) {
-        appareils.add(appareil);
+    public void ajouterAppareil(Appareil string) {
+        appareils.add(string);
     }
 
     public void afficherInventaire() {
@@ -29,4 +29,9 @@ class Inventaire {
             System.out.println(a.getDescription());
         }
     }
+
+	public void ajouterAppareil(String string) {
+		System.out.println("test");
+		
+	}
 }
